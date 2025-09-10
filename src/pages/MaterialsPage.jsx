@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Icon from '../components/Icon';
 
 const materialsData = [
-  { type: 'СТАТИЈА', title: '5 работи што треба да ги знаете пред да почнете со React', area: 'Front-End', icon: 'book-marked', color: 'indigo' },
+  { type: 'СТАТИЈА', title: '5 работи што треба да ги знаете пред да почнете со React', area: 'Front-End', icon: 'book-open', color: 'indigo' },
   { type: 'ВИДЕО', title: 'JavaScript Full Course for Beginners', area: 'Front-End', icon: 'youtube', color: 'red' },
   { type: 'КУРС', title: 'Python for Data Science and Machine Learning', area: 'Data Science', icon: 'server', color: 'sky' },
   { type: 'СТАТИЈА', title: 'Вовед во SQL: Основни команди', area: 'Back-End', icon: 'database', color: 'emerald' },

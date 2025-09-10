@@ -20,8 +20,7 @@ const Sidebar = ({ activePage, onNavigate, isSidebarOpen, setIsSidebarOpen }) =>
       <aside className={`w-64 h-screen border-r border-slate-200 flex flex-col flex-shrink-0 bg-white z-30 transform transition-transform duration-300 ease-in-out fixed md:relative inset-y-0 left-0 md:translate-x-0 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="p-6">
           <a href="#" className="flex items-center space-x-2">
-            <img src={logoImage} alt="iQareer Logo" className="h-8" onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/128x32/eef2ff/4338ca?text=iQareer'; }} />
-            <span className="text-2xl font-bold text-slate-800">iQareer</span>
+            <img src={logoImage} alt="iQareer Logo" className="h-50" onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/128x32/eef2ff/4338ca?text=iQareer'; }} />
           </a>
         </div>
         <nav className="px-4 flex-1">

@@ -56,7 +56,7 @@ export default function App() {
       <main className="flex-1 flex flex-col overflow-y-auto">
         {/* Мобилен Header */}
         <header className="md:hidden flex justify-between items-center p-4 border-b border-slate-200 bg-white sticky top-0 z-10">
-            <a href="/" className="flex items-center space-x-2">
+            <a href="#" className="flex items-center space-x-2">
               <img src={logoImage} alt="iQareer Logo" className="h-8" onError={(e) => { e.target.onerror = null; e.target.src='https://placehold.co/128x32/eef2ff/4338ca?text=iQareer'; }}/>
             </a>
             <button onClick={() => setIsSidebarOpen(true)} className="p-2 rounded-md hover:bg-slate-100">
